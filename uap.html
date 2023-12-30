@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="kiw.js" defer></script>
+		<style>
+			table,th,
+			td {
+				border: 1px solid #f50288;
+				text-align: left;
+				padding: 2px;
+			}
+		</style>
+    </head>
+    <body>
+        <table style="margin-top: 20px;">
+            <tr>
+                <th>Kode</th>
+                <th>Barang</th>
+                <th>Harga</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Barang A</td>
+                <td>10.000</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Barang B</td>
+                <td>20.000</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Barang C</td>
+                <td>30.000</td>
+            </tr>
+        </table>
+
+        <h4>Masukkan Inputan:</h4>
+
+        <table style="border: 1px; margin-top: 10px;">
+        <tr>
+            <th>masukkan kode</th>
+            <th>:</th>
+            <td><input type="text" id="kodeBarang" placeholder="contoh 001"/></td>
+        </tr>
+        <tr>
+            <th>masukkan barang</th>
+            <th>:</th>
+            <td><input type="number" id="banyakBarang" placeholder="contoh 2"/></td>
+        </tr>
+    </table>
+
+            <button onclick="transaksi()">Submit</button>
+
+    </body>
+
+
+
+
+</html>
